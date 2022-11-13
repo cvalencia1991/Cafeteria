@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+}
+.styleheader{
+    background-image: url('./Imágenes/Fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48vw;
+
+}
+.stylenav{
+    display: flex;
+    list-style: none;
+    padding: 1em;
+    gap: 1em;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.stylemenu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 1em;
+}
+.styletittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
