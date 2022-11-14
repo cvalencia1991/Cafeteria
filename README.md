@@ -1,6 +1,6 @@
 # Cafeteria
 
-> this is the final project for Course Domestika when we learn Responsive HTML and CSS Responsive Desing
+> this is the final project for Course Domestika when we learn Responsive HTML and CSS Desing
 
 
 ## Built With
