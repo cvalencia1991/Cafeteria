@@ -13,6 +13,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 48vw;
+    color:#f5f0ed;
 
 }
 .stylenav{
@@ -34,7 +35,6 @@ p{
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    margin: 13vw;
 }
 .styletittle{
     display: flex;
@@ -47,7 +47,7 @@ p{
     align-items: center;
     width: 10%;
     height: 1px;
-    background: black;
+    background: #f5f0ed;
 }
 
 .styleinfo{
@@ -62,7 +62,7 @@ p{
 
 }
 .stylebrunch{
-    background: red;
+    background: #d03b40;
     width: 50vw;
     height: 22vw;
     display: flex;
@@ -73,7 +73,7 @@ p{
 }
 
 .styleparty{
-    background: blue;
+    background: #ded6c0;
     width: 50vw;
     height: 22vw;
     display: flex;
@@ -81,4 +81,56 @@ p{
     align-items: center;
     justify-content: center;
     padding: 1em;
+}
+
+.styleproducts{
+    background-image: url('./Imágenes/Fondo2.jpg');
+    height: 36vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    color:#f5f0ed;
+}
+
+.infoCafeteria1{
+display: flex;
+background: #f5f0ed;
+}
+
+.stylebrunch1{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    gap: 1vw;
+    align-items: flex-start;
+}
+.styleparty1{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    align-items: flex-start;
+    gap: 1em;
+}
+.styleinfocafeteria{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer{
+    background: #241d1b;
+    color: #f5f0ed;
+    padding: 1em;
+}
+
+.styledesayunar{
+    text-align: center;
 }
