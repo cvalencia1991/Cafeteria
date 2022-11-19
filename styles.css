@@ -1,4 +1,14 @@
 
+@font-face {
+    font-family: Opensandbold;
+    src: url(/Tipografía//OpenSans-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: OpensandRegular;
+    src: url(/Tipografía/OpenSans-Regular.ttf);
+  }
+
 body{
     margin: 0;
 }
