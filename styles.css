@@ -13,9 +13,6 @@ body {
   margin: 0;
 }
 
-*{
-  border: 1px solid red;
-}
 h1 {
   font-family: Opensandbold, sans-serif;
   font-size: 30px;
