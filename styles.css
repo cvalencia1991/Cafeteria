@@ -232,6 +232,7 @@ footer {
     display: flex;
     font-weight: bold;
   }
+
   .styleparty {
     flex-direction: column;
     width: 50vw;
