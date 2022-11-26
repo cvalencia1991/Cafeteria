@@ -1,261 +1,284 @@
 
 @font-face {
-    font-family: Opensandbold;
-    src: url(/Tipografía//OpenSans-Bold.ttf);
-  }
-
-  @font-face {
-    font-family: OpensandRegular;
-    src: url(/Tipografía/OpenSans-Regular.ttf);
-  }
-
-
-
-body{
-    margin: 0;
-}
-h1{
-    font-family: Opensandbold;
-    font-size: 30px;
-}
-h2{
-    text-align: center;
-    font-family: Opensandbold;
-    font-size: 28px;
-}
-h3{
-    font-family: Opensandbold;
-    font-size: 24px;
-}
-p{
-    font-family: OpensandRegular;
-    font-size: 16px;
-}
-.styleheader{
-    background-image: url('./Imágenes/Fondo1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:#f5f0ed;
-    height: 122vw;
-    background-position: center;
+  font-family: Opensandbold;
+  src: url(/Tipografía//OpenSans-Bold.ttf);
 }
 
-.stylehamburgermenu{
-    background: #d03b40;
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@font-face {
+  font-family: OpensandRegular;
+  src: url(/Tipografía/OpenSans-Regular.ttf);
 }
 
-.stylenav{
-    display: flex;
-    list-style: none;
-    padding: 1em;
-    gap: 1em;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-.stylemenu{
-    font-family: OpensandRegular;
-    font-size: 16px;
-    display: none;
-    list-style: none;
-    padding: 0;
-    gap: 1em;
-}
-.sytleinfoheader{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1em;
-}
-.styletittle{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.line{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    height: 1px;
-    background: #f5f0ed;
+body {
+  margin: 0;
 }
 
-.styleinfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 80%;
+h1 {
+  font-family: Opensandbold, sans-serif;
+  font-size: 30px;
 }
 
-.infoCafeteria{
-    display: flex;
-    flex-direction: column;
+h2 {
+  text-align: center;
+  font-family: Opensandbold, sans-serif;
+  font-size: 28px;
 }
 
-.styleinfobreakfast{
-    font-family: Opensandbold;
-    font-size: 44px;
-    color:#ded6c0;
+h3 {
+  font-family: Opensandbold, sans-serif;
+  font-size: 24px;
 }
 
-.stylebrunch{
-    background: #d03b40;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    color:#f5f0ed;
-    text-align: center;
+p {
+  font-family: OpensandRegular, sans-serif;
+  font-size: 16px;
 }
 
-.styleparty{
-    background: #ded6c0;
-   color:#d03b40;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    text-align: center;
+.styleheader {
+  background-image: url('./Imágenes/Fondo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5f0ed;
+  height: 122vw;
+  background-position: center;
 }
 
-.styleproducts{
-    background-image: url('./Imágenes/Fondo2.jpg');
-    height: 80vw;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-    color:#f5f0ed;
+.stylehamburgermenu {
+  background: #d03b40;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.infoCafeteria1{
-display: flex;
-background: #f5f0ed;
-flex-direction: column;
-align-items: center;
+.stylenav {
+  display: flex;
+  list-style: none;
+  padding: 1em;
+  gap: 1em;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
-.stylebrunch1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1em;
-    gap: 1vw;
-    align-items: center;
-
+.stylemenu {
+  font-family: OpensandRegular, sans-serif;
+  font-size: 16px;
+  display: none;
+  list-style: none;
+  padding: 0;
+  gap: 1em;
 }
 
-.styleparty1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    gap: 1em;
-}
-.styleinfocafeteria{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-footer{
-    background: #241d1b;
-    color: #f5f0ed;
-    padding: 1em;
-    font-family: OpensandRegular;
-    font-size: 14px;
+.sytleinfoheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
 }
 
-.styledesayunar{
-    text-align: center;
-    width: 80%;
+.styletittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.stylelogos{
-    width: 7em;
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 1px;
+  background: #f5f0ed;
 }
-.stylebutton{
-    cursor: pointer;
-    background: transparent;
-    padding: 10px;
-    border: 2px solid white;
-    color:#f5f0ed;
-    font-family: OpensandRegular;
-    font-size: 14px;
+
+.styleinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+}
+
+.infoCafeteria {
+  display: flex;
+  flex-direction: column;
+}
+
+.styleinfobreakfast {
+  font-family: Opensandbold, sans-serif;
+  font-size: 44px;
+  color: #ded6c0;
+}
+
+.stylebrunch {
+  background: #d03b40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  color: #f5f0ed;
+  text-align: center;
+}
+
+.styleparty {
+  background: #ded6c0;
+  color: #d03b40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  text-align: center;
+}
+
+.styleproducts {
+  background-image: url('./Imágenes/Fondo2.jpg');
+  height: 80vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  color: #f5f0ed;
+}
+
+.infoCafeteria1 {
+  display: flex;
+  background: #f5f0ed;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stylebrunch1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  gap: 1vw;
+  align-items: center;
+}
+
+.styleparty1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+.styleinfocafeteria {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer {
+  background: #241d1b;
+  color: #f5f0ed;
+  padding: 1em;
+  font-family: OpensandRegular, sans-serif;
+  font-size: 14px;
+}
+
+.styledesayunar {
+  text-align: center;
+  width: 80%;
+}
+
+.stylelogos {
+  width: 7em;
+}
+
+.stylebutton {
+  cursor: pointer;
+  background: transparent;
+  padding: 10px;
+  border: 2px solid white;
+  color: #f5f0ed;
+  font-family: OpensandRegular, sans-serif;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {
-
-    .line{
-        width: 10%;
-    }
-
-    h1{
-        font-size: 44px;
-    }
-
-    .sytleinfoheader{
-        margin: 114px;
-    }
-
-    .stylehamburgermenu{
-        display: none;
-    }
-    .styleinfo{
-        width: 38%;
-    }
-
-    .stylemenu {
-      display: flex;
-    }
-    .styleparty{
-        flex-direction: column;
-        width: 50vw;
-        height: 16vw;
-        background: #d03b40;
-        color:#f5f0ed;
-    }
-    .stylebrunch{
-        width: 50vw;
-        height: 16vw;
-        background: #ded6c0;
-        color:#d03b40;
-    }
-    .infoCafeteria{
-        flex-direction: row;
-    }
-    .styleheader {
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 48vw;
-        color: #f5f0ed;
-    }
-    .infoCafeteria1{
-        display: flex;
-        flex-direction: row;
-        }
-        .stylebrunch1{
-            flex-direction: row;
-        width: 50vw;
-        }
-        .styleparty1{
-            flex-direction: row;
-            width: 50vw;
-        }
-        .styleproducts{
-            height: 36vw;   
-        }
-        .styleinfosundays{
-            width: 26em;
-        }
+  .styledesayunar {
+    width: 40%;
   }
+
+  .line {
+    width: 10%;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .sytleinfoheader {
+    margin: 114px;
+  }
+
+  .stylehamburgermenu {
+    display: none;
+  }
+
+  .styleinfo {
+    width: 38%;
+  }
+
+  .stylemenu {
+    display: flex;
+    font-weight: bold;
+  }
+
+  .styleparty {
+    flex-direction: column;
+    width: 50vw;
+    height: 16vw;
+    background: #d03b40;
+    color: #f5f0ed;
+  }
+
+  .stylebrunch {
+    width: 50vw;
+    height: 16vw;
+    background: #ded6c0;
+    color: #d03b40;
+  }
+
+  .infoCafeteria {
+    flex-direction: row;
+  }
+
+  .styleheader {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48vw;
+    color: #f5f0ed;
+  }
+
+  .infoCafeteria1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .stylebrunch1 {
+    flex-direction: row;
+    width: 50vw;
+  }
+
+  .styleparty1 {
+    flex-direction: row;
+    width: 50vw;
+  }
+
+  .styleproducts {
+    height: 36vw;
+  }
+
+  .styleinfosundays {
+    width: 26em;
+  }
+}
