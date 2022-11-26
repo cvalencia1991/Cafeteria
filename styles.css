@@ -232,18 +232,15 @@ footer {
     display: flex;
     font-weight: bold;
   }
-
   .styleparty {
     flex-direction: column;
     width: 50vw;
-    height: 16vw;
     background: #d03b40;
     color: #f5f0ed;
   }
 
   .stylebrunch {
     width: 50vw;
-    height: 16vw;
     background: #ded6c0;
     color: #d03b40;
   }
@@ -255,7 +252,7 @@ footer {
   .styleheader {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 48vw;
+    height: 60vw;
     color: #f5f0ed;
   }
 
