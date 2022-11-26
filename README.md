@@ -10,7 +10,7 @@ This is the final project for Course Domestika when we learn Responsive HTML and
 
 ## Live Demo (if available)
 
-[Live Demo Link](Woking on it)
+[Live Demo Link](https://cvalencia1991.github.io/Cafeteria/)
 
 
 ## Getting Started
