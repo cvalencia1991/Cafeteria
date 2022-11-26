@@ -9,23 +9,46 @@
     src: url(/Tipografía/OpenSans-Regular.ttf);
   }
 
+
+
 body{
     margin: 0;
 }
+h1{
+    font-family: Opensandbold;
+    font-size: 30px;
+}
 h2{
     text-align: center;
+    font-family: Opensandbold;
+    font-size: 28px;
+}
+h3{
+    font-family: Opensandbold;
+    font-size: 24px;
 }
 p{
-    text-align: center;
+    font-family: OpensandRegular;
+    font-size: 16px;
 }
 .styleheader{
     background-image: url('./Imágenes/Fondo1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 48vw;
     color:#f5f0ed;
-
+    height: 122vw;
+    background-position: center;
 }
+
+.stylehamburgermenu{
+    background: #d03b40;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .stylenav{
     display: flex;
     list-style: none;
@@ -35,7 +58,9 @@ p{
     justify-content: space-between;
 }
 .stylemenu{
-    display: flex;
+    font-family: OpensandRegular;
+    font-size: 16px;
+    display: none;
     list-style: none;
     padding: 0;
     gap: 1em;
@@ -55,7 +80,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 10%;
+    width: 30%;
     height: 1px;
     background: #f5f0ed;
 }
@@ -65,37 +90,45 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 80%;
 }
 
 .infoCafeteria{
     display: flex;
-
+    flex-direction: column;
 }
+
+.styleinfobreakfast{
+    font-family: Opensandbold;
+    font-size: 44px;
+    color:#ded6c0;
+}
+
 .stylebrunch{
     background: #d03b40;
-    width: 50vw;
-    height: 22vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1em;
+    color:#f5f0ed;
+    text-align: center;
 }
 
 .styleparty{
     background: #ded6c0;
-    width: 50vw;
-    height: 22vw;
+   color:#d03b40;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1em;
+    text-align: center;
 }
 
 .styleproducts{
     background-image: url('./Imágenes/Fondo2.jpg');
-    height: 36vw;
+    height: 80vw;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -108,26 +141,26 @@ p{
 .infoCafeteria1{
 display: flex;
 background: #f5f0ed;
+flex-direction: column;
+align-items: center;
 }
 
 .stylebrunch1{
-    width: 50vw;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     padding: 1em;
     gap: 1vw;
-    align-items: flex-start;
+    align-items: center;
+
 }
+
 .styleparty1{
-    width: 50vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1em;
-    align-items: flex-start;
     gap: 1em;
 }
 .styleinfocafeteria{
@@ -139,8 +172,90 @@ footer{
     background: #241d1b;
     color: #f5f0ed;
     padding: 1em;
+    font-family: OpensandRegular;
+    font-size: 14px;
 }
 
 .styledesayunar{
     text-align: center;
+    width: 80%;
 }
+
+.stylelogos{
+    width: 7em;
+}
+.stylebutton{
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    border: 2px solid white;
+    color:#f5f0ed;
+    font-family: OpensandRegular;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .line{
+        width: 10%;
+    }
+
+    h1{
+        font-size: 44px;
+    }
+
+    .sytleinfoheader{
+        margin: 114px;
+    }
+
+    .stylehamburgermenu{
+        display: none;
+    }
+    .styleinfo{
+        width: 38%;
+    }
+
+    .stylemenu {
+      display: flex;
+    }
+    .styleparty{
+        flex-direction: column;
+        width: 50vw;
+        height: 16vw;
+        background: #d03b40;
+        color:#f5f0ed;
+    }
+    .stylebrunch{
+        width: 50vw;
+        height: 16vw;
+        background: #ded6c0;
+        color:#d03b40;
+    }
+    .infoCafeteria{
+        flex-direction: row;
+    }
+    .styleheader {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 48vw;
+        color: #f5f0ed;
+    }
+    .infoCafeteria1{
+        display: flex;
+        flex-direction: row;
+        }
+        .stylebrunch1{
+            flex-direction: row;
+        width: 50vw;
+        }
+        .styleparty1{
+            flex-direction: row;
+            width: 50vw;
+        }
+        .styleproducts{
+            height: 36vw;   
+        }
+        .styleinfosundays{
+            width: 26em;
+        }
+  }
