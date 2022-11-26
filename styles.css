@@ -13,6 +13,9 @@ body {
   margin: 0;
 }
 
+*{
+  border: 1px solid red;
+}
 h1 {
   font-family: Opensandbold, sans-serif;
   font-size: 30px;
@@ -276,9 +279,5 @@ footer {
 
   .styleproducts {
     height: 36vw;
-  }
-
-  .styleinfosundays {
-    width: 26em;
   }
 }
