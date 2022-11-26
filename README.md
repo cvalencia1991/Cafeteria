@@ -1,38 +1,30 @@
 # Cafeteria
 
-> this is the final project for Course Domestika when we learn Responsive HTML and CSS Desing
+This is the final project for Course Domestika when we learn Responsive HTML and CSS Desing
 
 
 ## Built With
 
 - HTML SCSS
-- Boostrap
 - Git, Vs Code
 
 ## Live Demo (if available)
 
-[Live Demo Link](Woking on it)
+[Live Demo Link](https://cvalencia1991.github.io/Cafeteria/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+- VSCODE 
+- node
+- git
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- cd Desktop 
+- git clone https://github.com/cvalencia1991/Cafeteria.git
 
 ### Screenshot
 
